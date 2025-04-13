@@ -9,7 +9,7 @@ const Aboutm = () => {
         <h2 className="about-title">About Me</h2>
         
         <div className="about-intro">
-          <img src="/path-to-your-photo.jpg" alt="Anup Raikar" className="about-photo" />
+          <img src="/src/assets/anupprof.jpg" alt="Anup Raikar" className="about-photo" />
           <p className="about-description">
             Hello! I'm <strong>Anup N Raikar</strong>, a data-driven individual with a passion for analytics, machine learning, and technology. I thrive on turning complex data into simple, insightful solutions that empower businesses to make smarter decisions. 
             Based in Mangalore, I specialize in using tools like <strong>Python</strong>, <strong>SQL</strong>, <strong>Power BI</strong>, and <strong>Tableau</strong> to extract insights from large datasets. 
