@@ -1,0 +1,143 @@
+/* General Container for the Project Section */
+.projectm-container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  margin-top: 70px; /* Add margin to push the content below the navbar */
+}
+
+/* Title of the Projects Section */
+.projectm-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #007BFF; /* Blue color */
+  margin-bottom: 40px;
+}
+
+/* Project Section Styles */
+.project {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Title */
+.project-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #007BFF; /* Blue color */
+  margin-bottom: 15px;
+}
+
+/* Project Description */
+.projectm-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Section Title (Technologies, Overview, etc.) */
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #007BFF; /* Blue color */
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* Lists for Technologies Used */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Paragraphs inside Project Details */
+.projectm-details p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Specific styling for timeline and role */
+.projectm-details p span {
+  font-weight: bold;
+  color: #007BFF; /* Blue color */
+}
+
+/* Button Styling (if needed in the future) */
+button {
+  padding: 12px 25px;
+  background-color: #007BFF; /* Blue color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker Blue */
+}
+
+/* Styling the Footer section */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #007BFF; /* Blue color */
+  color: white;
+  border-radius: 5px;
+}
+
+/* Responsive Design for smaller screen sizes */
+@media (max-width: 768px) {
+  .projectm-container {
+    padding: 20px;
+  }
+
+  .project {
+    padding: 20px;
+  }
+
+  .project-title {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .projectm-description {
+    font-size: 1rem;
+  }
+
+  ul {
+    margin-left: 15px;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+}
